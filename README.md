@@ -4,4 +4,4 @@ use tools<br/>
 React<br/>
 Tailwind CSS <br/>
 
-[live](https://gorgeous-gelato-6575f1.netlify.app/)
+[live](https://parabol-mahadidev7.netlify.app/)
