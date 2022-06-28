@@ -21,11 +21,13 @@ const Shop = () => {
   const getProducts = async () => {
     setloading(true)
     const respons = await fetch('https://course-api.com/react-store-products').then(data => data.json())
-    respons.map((e,i)=>(
-      e.cart = 1,
-      e.shop = false,
-      e.totlePrice = e.price
-   ))
+    respons.map((e,i)=>{
+      return (
+        e.cart = 1,
+        e.shop = false,
+        e.totlePrice = e.price
+      )
+    })
     setproducts(respons);
     setLoadedProducts(createPagination(respons));
     setloading(false)
@@ -83,8 +85,6 @@ const Shop = () => {
     getProducts()
   }, [])
   
-  console.log(carts);
-
   return (
     <>
       <section className='block h-auto'>
