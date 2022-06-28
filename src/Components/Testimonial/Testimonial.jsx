@@ -1,6 +1,4 @@
 import React from 'react'
-import { AiOutlineArrowRight } from 'react-icons/ai';
-import { AiOutlineArrowLeft } from 'react-icons/ai';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import TestimonialItem from './TestimonialItem';

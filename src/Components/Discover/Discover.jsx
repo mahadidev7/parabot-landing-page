@@ -12,7 +12,7 @@ const Discover = () => {
            <div>
               <h2 className='text-5xl font-bold leading-tight'>Discover the istercrior design of your dreams</h2>
               <p className='my-5'>Lorem ipsum dolor sit amet consectetur adipiscing elit, nam dui tincidunt nunc nisl porttitor sem mauris, faucibus duis metus aliquam erat per. Sollicitudin convallis dignissim vehicula nunc augue scelerisque varius felis,</p>
-              <a class="bg-black text-white px-8 py-3 inline-block" href="https://www.linkedin.com/in/mahadidev7/">Get inspired</a>
+              <a className="bg-black text-white px-8 py-3 inline-block" href="https://www.linkedin.com/in/mahadidev7/">Get inspired</a>
               <div className=' block my-14'>
                 <img className='float-right w-3/4' src="https://images.pexels.com/photos/1350789/pexels-photo-1350789.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="discover" />
               </div>

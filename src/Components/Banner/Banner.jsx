@@ -102,9 +102,9 @@ const Banner = () => {
                       {
                         BannerImg.one && 
                         <div className=''>
-                            <span class="flex h-4 w-4 cursor-pointer" onMouseEnter={()=> handerBannerControlsdes("one")}>
-                              <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
-                              <span class="relative inline-flex rounded-full h-4 w-4 bg-white"></span>
+                            <span className="flex h-4 w-4 cursor-pointer" onMouseEnter={()=> handerBannerControlsdes("one")}>
+                              <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                              <span className="relative inline-flex rounded-full h-4 w-4 bg-white"></span>
                             </span>
                         </div>
                       }
@@ -135,9 +135,9 @@ const Banner = () => {
                         {
                           BannerImg.two && 
                           <div>
-                              <span class="flex h-4 w-4 cursor-pointer" onMouseEnter={()=> handerBannerControlsdes("two")}>
-                                <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
-                                <span class="relative inline-flex rounded-full h-4 w-4 bg-white"></span>
+                              <span className="flex h-4 w-4 cursor-pointer" onMouseEnter={()=> handerBannerControlsdes("two")}>
+                                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                                <span className="relative inline-flex rounded-full h-4 w-4 bg-white"></span>
                               </span>
                           </div>
                         }
@@ -166,9 +166,9 @@ const Banner = () => {
                           {
                             BannerImg.three && 
                             <div>
-                                <span class="flex h-4 w-4 cursor-pointer" onMouseEnter={()=> handerBannerControlsdes("three")}>
-                                  <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
-                                  <span class="relative inline-flex rounded-full h-4 w-4 bg-white"></span>
+                                <span className="flex h-4 w-4 cursor-pointer" onMouseEnter={()=> handerBannerControlsdes("three")}>
+                                  <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
+                                  <span className="relative inline-flex rounded-full h-4 w-4 bg-white"></span>
                                 </span>
                             </div>
                           }

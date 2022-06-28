@@ -28,7 +28,7 @@ const DrawerCos = ({allCarts, productCount, cartTime}) => {
     <button onClick={toggleDrawer} className="fixed bottom-10 right-0 bg-[#DFC4AF] p-5 text-2xl z-50" >
        {/* <span> {allCarts.length} </span> */}
        <span> 
-            <span class="flex items-center justify-center absolute top-0 right-0 p-1 bg-white font-bold w-8 h-8 text-sm rounded-full">
+            <span className="flex items-center justify-center absolute top-0 right-0 p-1 bg-white font-bold w-8 h-8 text-sm rounded-full">
                 {allCarts.length}
             </span>
         </span>
