@@ -15,7 +15,7 @@ const Header = () => {
       <div className='container md:w-5/6 w-full mx-auto pt-5 pb-7 px-2 md:px-0'>
         <div className='flex justify-between items-center'>
           <div className='w-40'>
-            <img src="https://i.ibb.co/jWXTxG3/logo.png" alt="logo" className='w-2/2' />
+            <h1 className='text-3xl font-bold capitalize logo'>furniture.</h1>
           </div>
           <div className='hidden md:block top-[100%]'>
             <ul className='flex md:flex-row flex-col md:gap-10 gap-3 menu '>

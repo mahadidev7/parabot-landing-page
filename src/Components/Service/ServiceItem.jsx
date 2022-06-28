@@ -7,7 +7,7 @@ const ServiceItem = ({img, title, paragraph}) => {
           <div className='flex items-center w-36 p-3 m-auto'>
             <img src={img} alt="icon" className='w-16 bg-slate-200 rounded-full p-3 m-auto' />
           </div>
-          <div>
+          <div className='flex-1'>
             <h2 className='font-extrabold mb-2'>{title}</h2>
             <p>{paragraph}</p>
           </div>

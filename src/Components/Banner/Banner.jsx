@@ -72,8 +72,6 @@ const Banner = () => {
     }
   }
 
-
-
   return (
     <section className='bg-gradient-to-r from-[#FBF9F4] to-[#fff] md:h-[85vh] h-auto px-2 md:px-0 '>
       <div className="w-full md:flex md:h-full">
@@ -84,7 +82,7 @@ const Banner = () => {
                 <p className='my-4'>Frontend design involves creating the HTML, CSS, and presentational JavaScript code that</p>
                 <div className='w-[95%] md:w-full'>
                   <form className='flex border border-black '>
-                    <input className='text-white w-full px-3 bg-transparent focus:outline-none' type="text" name="seearch" placeholder='Search your product here...' />
+                    <input className='w-full px-3 bg-transparent focus:outline-none' type="text" name="seearch" placeholder='Search your product here...' />
                     <button type='submit' className='bg-black text-white px-7 py-3 '>Search</button>
                   </form>
                 </div>
@@ -94,6 +92,7 @@ const Banner = () => {
           
           <div className='md:w-[60%] w-full grow 5/5 md:px-2 h-[50vh] md:h-full'>
             <div className='flex gap-3 h-full' >
+            
               <div onMouseEnter={()=> handerBannerControls("one")} className={` bg-[url(https://images.unsplash.com/photo-1556228453-efd6c1ff04f6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80)] bg-center bg-no-repeat bg-cover relative overflow-hidden transition-all duration-500 ease-linear ${BannerImg.one?  `w-[60%]` : `w-[20%]`}`}>
               
                 <div className='absolute'>
@@ -102,7 +101,7 @@ const Banner = () => {
                       <div className='relative'>
                       {
                         BannerImg.one && 
-                        <div>
+                        <div className=''>
                             <span class="flex h-4 w-4 cursor-pointer" onMouseEnter={()=> handerBannerControlsdes("one")}>
                               <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-white opacity-75"></span>
                               <span class="relative inline-flex rounded-full h-4 w-4 bg-white"></span>
@@ -112,9 +111,11 @@ const Banner = () => {
                         
                         { 
                            BannerImgDes.one ? <>
-                              <div className='absolute bottom-[150%] left-[50%] bg-white px-5 py-2 rounded w-60 shadow'>
-                                <p className='text-gray-600'><b>Hello Mahadi</b></p>
-                                <p>This is a <a href="https://www.linkedin.com/in/mahadidev7/">me</a>.</p>
+                              <div className='absolute bottom-[150%] left-[-700%] bg-white px-5 py-2 rounded w-60 shadow'>
+                                <p className='text-gray-600 text-md'><b>This is a Demo template as a portfolio</b>
+                                </p>
+                                
+                                <p className='text-slate-500 text-sm'>This template create by <a className="underline" href="https://www.linkedin.com/in/mahadidev7/">Mahadidev7</a></p>
                               </div>
                              </> : ""
                         }
@@ -143,10 +144,12 @@ const Banner = () => {
                           
                           {
                             BannerImgDes.two ? <>
-                            <div className='absolute bottom-[150%] left-[50%] bg-white px-5 py-2 rounded w-60 shadow'>
-                            <p className='text-gray-600'><b>Hello Mahadi</b></p>
-                            <p>This is a <a href="https://www.linkedin.com/in/mahadidev7/">me</a>.</p>
-                          </div>
+                            <div className='absolute bottom-[150%] left-[-700%] bg-white px-5 py-2 rounded w-60 shadow'>
+                                <p className='text-gray-600 text-md'><b>This is a Demo template as a portfolio</b>
+                                </p>
+                                
+                                <p className='text-slate-500 text-sm'>This template create by <a className="underline" href="https://www.linkedin.com/in/mahadidev7/">Mahadidev7</a></p>
+                              </div>
                             </> : <></>
                           }
                           
@@ -171,10 +174,12 @@ const Banner = () => {
                           }
                           {
                             BannerImgDes.three ? <>
-                            <div className='absolute bottom-[150%] left-[-650%] bg-white px-5 py-2 rounded w-60 shadow'>
-                            <p className='text-gray-600'><b>Hello Mahadi</b></p>
-                            <p>This is a <a href="https://www.linkedin.com/in/mahadidev7/">me</a>.</p>
-                          </div>
+                            <div className='absolute bottom-[150%] left-[-700%] bg-white px-5 py-2 rounded w-60 shadow'>
+                                <p className='text-gray-600 text-md'><b>This is a Demo template as a portfolio</b>
+                                </p>
+                                
+                                <p className='text-slate-500 text-sm'>This template create by <a className="underline" href="https://www.linkedin.com/in/mahadidev7/">Mahadidev7</a></p>
+                              </div>
                             </> : <></>
                           }
                           
